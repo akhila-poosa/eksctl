@@ -6,7 +6,7 @@ metadata:
     region: us-east-1
 managedNodeGroups:
   - name: ronoshop-dev
-    instanceTypes: ["m5.large", "t3.small", "t3.medium", "c5.large"]
+    instanceTypes: [ "t3.small", "t3.medium" ]
     desiredCapacity: 2 #3 is the default value
     spot: true
 
