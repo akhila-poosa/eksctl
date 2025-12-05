@@ -7,6 +7,6 @@ metadata:
 managedNodeGroups:
   - name: ronoshop-dev
     instanceTypes: [ "t3.small", "t3.medium" ]
-    desiredCapacity: 2 #3 is the default value
+    desiredCapacity: 1 #3 is the default value
     spot: true
 
